@@ -1,4 +1,4 @@
-# This is a monley patch for https://github.com/rails/rails/pull/41856
+# This is a monkey patch for https://github.com/rails/rails/pull/41856
 
 require 'active_record/connection_adapters/postgresql_adapter'
 
