@@ -2,8 +2,6 @@
 
 require 'active_record/connection_adapters/postgresql_adapter'
 
-raise ArgumentError, "This patch should be removed in rails (#{Rails.gem_version})" if  Rails.gem_version >= Gem::Version.new(7)
-
 module ActiveRecord
   module ConnectionAdapters
     module DatabaseStatements
